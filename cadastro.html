@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<link rel="stylesheet" href="cadastro.css">
+<body>
+    <div id="fundo">
+        <h2 style="font-size: 30px">Cadastro de DEVs</h2>
+        Complete suas inforamções<br><br>
+        
+        <form>
+            Nome<br>
+            <input type="text" name="nome"><br><br>
+            Sobrenome<br>
+            <input type="text" name="sobrenome"><br><br>
+            Email<br>
+            <input type="email" name="email"><br>
+            <h3>De qual lado você desenvolve?</h3>
+            <input type="radio" name="lado" value="front">Front-end
+            <input type="radio" name="lado" value="back">Back-end   
+            <input type="radio" name="lado" value="full">Fullstack
+
+            <h3>Senioridade</h3>
+            <select style="padding: 4px;">
+                <option name="1a5">De 1 a 5 anos</option>
+                <option name="5a10">De 5 a 10 anos</option>
+                <option name="10a15">De 10 a 15 anos</option>
+            </select><br><br>
+
+            <h3>Selecione as tecnologias que você utiliza<br></h3>
+            <input type="checkbox" name="html"> HTML
+            <input type="checkbox" name="css"> CSS 
+            <input type="checkbox" name="jvs"> JavaScript  
+            <input type="checkbox" name="c#"> C# 
+            <input type="checkbox" name="phyton"> Phyton
+            <input type="checkbox" name="java"> Java
+            <br>
+            <h3>Conte um pouco da sua experiência</h3>
+            <textarea cols="60px" name="comentario"></textarea><br><br>
+            <input style="padding: 10px; background-color: rgb(18, 235, 18); border: outset rgb(18, 235, 18); cursor: pointer; font-weight: bold; color: rgb(241, 231, 231); font-size: 20px; border-radius: 10px;"  type="submit" value="Concluído">
+            <br>
+            <br>
+        </form>
+
+        </div>
+    
+</body>
+</html>
